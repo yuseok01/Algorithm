@@ -31,7 +31,6 @@ public class Hash4 {
             List<String> keySet = new ArrayList(count.keySet()); //key 다넣기 list에
             Collections.sort(keySet,(s1,s2) -> count.get(s2) - (count.get(s1)));
             //plays가 많은 것부터 앞으로  양수가 되게끔 처리
-
             for(String key : keySet) { //play수가 많은 장르 부터 처리
                 HashMap<Integer, Integer> map = repository.get(key); //고유번호,재생횟수
                 List<Integer> genre_key = new ArrayList<>(map.keySet()); //모든 고유번호
