@@ -10,7 +10,7 @@ public class Hash3 {
              */
             int answer = 1;
             HashMap<String,Integer> hash = new HashMap<>();
-            for(int i = 0 ; i < clothes.length ; i++){
+            for(int i = 0 ; i < clothes.length ;  i++){
                 hash.put(clothes[i][1], hash.getOrDefault(clothes[i][1],0)+1);
             }
             for(String key : hash.keySet()){
