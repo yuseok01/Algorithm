@@ -1,8 +1,8 @@
 import java.util.*;
 
 
-public class Hash3 {
-    static class solution{
+public  class Hash3 {
+    static class Solution{
         public int solution(String[][] clothes) {
             /**
              * 풀이법
